@@ -10,9 +10,7 @@ void main() => runApp(
           ),
           body: Center(
             child: Image(
-              image: NetworkImage(
-                'https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/images-s/rid/aventador_2.jpg',
-              ),
+              image: AssetImage('images/lambo.png'),
             ),
           ),
         ),
